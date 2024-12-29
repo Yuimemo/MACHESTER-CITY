@@ -273,28 +273,24 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-links ul,
-.footer-social-media ul {
+.footer-links ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.footer-links li,
-.footer-social-media li {
+.footer-links li{
     margin-bottom: 10px;
 }
 
-.footer-links a,
-.footer-social-media a {
+.footer-links a{
     color: white;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
 }
 
-.footer-links a:hover,
-.footer-social-media a:hover {
+.footer-links a:hover{
     color: #0073c8;
 }
 
@@ -351,3 +347,65 @@ footer a {
     font-size: 12px;
 }
 
+.contact-form-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #7AB2E1;
+    outline: none;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #7AB2E1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #5a94c6;
+}
